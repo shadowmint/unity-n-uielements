@@ -1,0 +1,28 @@
+{
+  "name": "unity-n-uielements",
+  "version": "0.0.1",
+  "description": "A bunch of common helper UI componentns",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/unity-ui-elements.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/unity-ui-elements/issues"
+  },
+  "homepage": "https://github.com/shadowmint/unity-ui-elements",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "unity-n-flow": "github:shadowmint/unity-n-flow#0.0.1",
+    "unity-n-uitools": "github:shadowmint/unity-n-uitools#1.0.0"
+  }
+}
