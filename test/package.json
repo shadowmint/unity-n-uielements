@@ -5,7 +5,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "unity-n-tests": "github:shadowmint/unity-n-tests#1.1.1",
+    "unity-n-tests": "github:shadowmint/unity-n-tests",
     "unity-n-uielements": "file:..",
     "unity-n-uitools": "github:shadowmint/unity-n-uitools"
   }
