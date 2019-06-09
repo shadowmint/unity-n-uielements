@@ -109,9 +109,9 @@ namespace N.Package.UIElements.Elements.ImageSliderElement
       }
     }
 
-    public override void OnComponentDidMount(FlowComponentProperties props)
+    public override void OnComponentDidMount(FlowComponentProperties props, bool justMounted)
     {
-      base.OnComponentDidMount(props);
+      base.OnComponentDidMount(props, justMounted);
       _idleState = _service.StateFrom(Properties.Idle.GetComponent<RectTransform>());
       _activeState = _service.StateFrom(Properties.Active.GetComponent<RectTransform>());
       _maskState = _service.StateFrom(Properties.ActiveMask.GetComponent<RectTransform>());

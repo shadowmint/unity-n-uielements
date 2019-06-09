@@ -1,6 +1,6 @@
 {
   "name": "unity-n-uielements",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A bunch of common helper UI componentns",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "unity-n-flow": "github:shadowmint/unity-n-flow",
-    "unity-n-uitools": "github:shadowmint/unity-n-uitools"
+    "unity-n-flow": "github:shadowmint/unity-n-flow#0.1.0",
+    "unity-n-uitools": "github:shadowmint/unity-n-uitools#1.1.0"
   }
 }

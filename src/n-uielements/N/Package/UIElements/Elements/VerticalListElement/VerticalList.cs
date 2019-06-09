@@ -16,8 +16,8 @@ namespace N.Package.UIElements.Elements.VerticalListElement
 
         public override void OnComponentRender()
         {
-            Properties.Container.Layout.ApplyLayout = true;
-            Properties.Container.Layout.CollectChildren = true;
+            Properties.Container.Layout.applyLayout = true;
+            Properties.Container.Layout.collectChildren = true;
         }
 
         public override IEnumerable<IFlowComponent> OnComponentLayout()
